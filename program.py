@@ -9,5 +9,7 @@ def calculator(first,second):
 
 first = input('the first element[?,] is')
 second = input('the second element[,?] is')
+first = int(first)
+second = int(second)
 
 print(calculator(first, second))
